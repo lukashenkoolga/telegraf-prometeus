@@ -14,7 +14,7 @@ services:
       - teleg
 
   influxdb:
-    image: influxdb:2.4.0
+    image: influxdb:1.8.10-alpine
     environment:
       - INFLUXDB_DB=influx
       - INFLUXDB_ADMIN_USER=admin
